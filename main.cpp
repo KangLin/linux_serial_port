@@ -14,7 +14,7 @@ void default_config_test()
 	using namespace std;
 	using namespace mrobot;
 
-	string name = "/dev/ttyS98";
+	string name = "/dev/ttyS0";
 	try
 	{
 		serial_port serial_device{name};
@@ -32,7 +32,7 @@ void config_test()
 	using namespace std;
 	using namespace mrobot;
 
-	string name = "/dev/ttyS98";
+	string name = "/dev/ttyS0";
 	baudrate_option baud = baudrate_option::b115200;
 	data_bits_option data = data_bits_option::eight;
 	parity_option parity = parity_option::none;
@@ -80,7 +80,7 @@ void action_test()
 	using namespace std;
 	using namespace mrobot;
 
-	string name = "/dev/ttyS98";
+	string name = "/dev/ttyS0";
 	baudrate_option baud = baudrate_option::b115200;
 	data_bits_option data = data_bits_option::eight;
 	parity_option parity = parity_option::none;
@@ -124,7 +124,7 @@ void action_test_2()
 	using namespace std;
 	using namespace mrobot;
 
-	string name = "/dev/ttyS98";
+	string name = "/dev/ttyS0";
 	baudrate_option baud = baudrate_option::b115200;
 	data_bits_option data = data_bits_option::eight;
 	parity_option parity = parity_option::none;
